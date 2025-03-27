@@ -21,7 +21,7 @@ main{
 
 header{
     text-align: center;
-    color: rgb(197, 172, 255);
+    color: #e6dcff;
     padding: 20px 0;
     border-radius: 8px 8px 0 0;
     background-image: url(./img/fondo.jpeg);
@@ -46,4 +46,39 @@ header h2{
     opacity: 0.7;
 }
 
+.container{
+    background-color: rgb(68, 64, 126);
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
 
+.contenendor_foto_perfil{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    border: 7px solid #6679ce;
+    margin: 5%;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.5);
+}
+
+.contenendor_foto_perfil img{
+    width: 266px;
+    height: auto;
+    display: block;
+}
+
+.cabecera{
+    position: relative;
+}
+
+.nombre_puesto{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    text-shadow: 0 0 0 20px rgb(0, 0, 0, 0.5);
+}
